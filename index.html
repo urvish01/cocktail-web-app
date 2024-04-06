@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cocktail Collection</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Cocktail Collection</h1>
+        <button id="saveButton">Save</button>
+    </header>
+    <main>
+        <section id="searchSection">
+            <h2>Search for Your Favorite Cocktail</h2>
+            <label for="searchInput">Enter cocktail name:</label>
+            <input type="text" id="searchInput" placeholder="Enter cocktail name...">
+            <button id="searchButton">Search</button>
+        </section>
+        <section id="resultsSection">
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2024 Cocktail Collection</p>
+    </footer>
+
+    <dialog id="drinkDialog">
+        <button id="closeDialog">Close</button>
+        <button id="saveRecipe">Save Recipe</button>
+    </dialog>
+
+    <script src="script.js"></script>
+</body>
+</html>
